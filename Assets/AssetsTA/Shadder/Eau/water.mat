@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3020771714119699183
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: water
+  m_Shader: {fileID: -6465566751694194690, guid: a99804615cabf0840bb8963a551d8f29,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_0505bd61e17843eea26feaf97982b398: -4.89
+    - Vector1_2547bc1d3e2d4fe1bc2c984684a89d74: 0.2
+    - Vector1_2b0252932870483397d4173509fec131: 26
+    - Vector1_428c0ea5e39a46ce8295e38d6a8e6da3: 1
+    - Vector1_7318e221e13249618509bbca8ce37f78: 0.2
+    - Vector1_7451233a98394fd29f2d6d5daea4518a: 1
+    - Vector1_74f55d2eabe24334ae551d609094f565: 0.2
+    - Vector1_7d52b69f228f4b2f8ea257e7c147a3a2: 1
+    - Vector1_a331792c39a740cf87f0af061e40542d: 0.85
+    - Vector1_abae2762a43f4c2c9700b5c170293c9b: 2.9
+    - Vector1_d1cd1c783f814284a6b3c436551cb92e: 0.2
+    - Vector1_dd00838dba964ac4bcfc6aaf2b3014c1: 43.65
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_a410745e316d494d9d2b096f666bb898: {r: 0.17085634, g: 0.8018868, b: 0.03328583,
+        a: 0.74509805}
+    - Color_e6c7d7af023d46c3b45eafcd3b664b34: {r: 0.9433962, g: 0.3405797, b: 0.11035952,
+        a: 0.76862746}
+    - _Dark: {r: 0, g: 0.07388043, b: 0.6132076, a: 0.34901962}
+    - _Light: {r: 1, g: 1, b: 1, a: 0.3921569}
+  m_BuildTextureStacks: []
