@@ -32,17 +32,17 @@ MonoBehaviour:
   shape: 0
   border: 0.437
   verticalOffset: 0
-  distance: 35.64
-  distanceFallOff: 0.435
+  distance: 603.7
+  distanceFallOff: 0.58
   terrainFit: 1
   terrainFitResolution: 128
   terrainLayerMask:
     serializedVersion: 2
     m_Bits: 4294967293
-  terrainFogHeight: 5000
+  terrainFogHeight: 5005.3
   terrainFogMinAltitude: 278.7
   terrainFogMaxAltitude: 2
-  albedo: {r: 0.9245283, g: 0.55297256, b: 0.84368086, a: 1}
+  albedo: {r: 0.7179965, g: 0.2945532, b: 0.7924528, a: 0.83137256}
   enableDepthGradient: 0
   depthGradient:
     serializedVersion: 2
