@@ -179,10 +179,10 @@ MonoBehaviour:
     m_Value: -24
   colorFilter:
     m_OverrideState: 0
-    m_Value: {r: 1.521315, g: 0.2690761, b: 1.5937586, a: 1}
+    m_Value: {r: 0.57524353, g: 0.69766384, b: 0.59422666, a: 1}
   hueShift:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 62.51
   saturation:
     m_OverrideState: 1
     m_Value: 28
@@ -228,6 +228,8 @@ MonoBehaviour:
   - {fileID: -7430119438259079750}
   - {fileID: 2966610544877319973}
   - {fileID: 4534644901377099950}
+  - {fileID: 6569446880662130989}
+  - {fileID: 1784447886545576049}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -244,6 +246,34 @@ MonoBehaviour:
   mode:
     m_OverrideState: 1
     m_Value: 0
+--- !u!114 &1784447886545576049
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
+  m_Name: LensDistortion
+  m_EditorClassIdentifier: 
+  active: 0
+  intensity:
+    m_OverrideState: 0
+    m_Value: -0.18
+  xMultiplier:
+    m_OverrideState: 0
+    m_Value: 0
+  yMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  center:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  scale:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &2081659007795421345
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -520,6 +550,25 @@ MonoBehaviour:
   blueOutBlueIn:
     m_OverrideState: 0
     m_Value: 100
+--- !u!114 &6569446880662130989
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb60a22f311433c4c962b888d1393f88, type: 3}
+  m_Name: PaniniProjection
+  m_EditorClassIdentifier: 
+  active: 0
+  distance:
+    m_OverrideState: 0
+    m_Value: 0
+  cropToFit:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &7094911556000698852
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -535,13 +584,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.8339086, z: 0.9487791, w: 0.13932575}
+    m_Value: {x: 0.98831713, y: 0.9314574, z: 1, w: 0.13932575}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.6551908, z: 0.9914079, w: 1}
+    m_Value: {x: 1, y: 0.58889204, z: 0.9538091, w: 1}
   highlights:
-    m_OverrideState: 1
-    m_Value: {x: 0, y: 0.70254016, z: 1, w: 0}
+    m_OverrideState: 0
+    m_Value: {x: 0.5050621, y: 0.58269, z: 1, w: 0.4066986}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
